@@ -1,4 +1,4 @@
-var serviceURL = "http://alightnin.net/thunder/services/";
+var serviceURL = "http://54.245.98.84/services/";
 
 var employees;
 

@@ -2,7 +2,6 @@ $('#detailsPage').live('pageshow', function(event) {
 	var id = getUrlVars()["id"];
 	$('#actionList').listview();
 	$.getJSON(serviceURL + 'getemployee.php?id='+id, displayEmployee);
-	
 });
 
 function displayEmployee(data) {
